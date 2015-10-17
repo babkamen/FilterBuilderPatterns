@@ -1,0 +1,1 @@
+Filter+ Builder pattern. Filter pattern from http://www.tutorialspoint.com/design_pattern/filter_pattern.htm
