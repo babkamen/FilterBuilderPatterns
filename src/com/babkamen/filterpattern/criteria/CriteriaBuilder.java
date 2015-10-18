@@ -28,9 +28,6 @@ public class CriteriaBuilder {
 
 
     private void addCreteria(Criteria c) throws Exception {
-        if (c instanceof OrCriteria) {
-            throw new Exception("Please use or() instead adding OrCriteria to "+CriteriaBuilder.class.getName());
-        }
         if (usedOr) {
             Criteria lastCriteria = criterias.get(criterias.size() - 1);
             criterias.remove(lastCriteria);
